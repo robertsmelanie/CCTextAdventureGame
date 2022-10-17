@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=IM+Fell+French+Canon:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 /* Bungee Spice */
-p {
-    font-family: 'Bungee Spice', cursive;
-    font-family: 'IM Fell French Canon', serif;
+p, h1 {
+   font-family: 'Creepster', cursive;
+    
 }
