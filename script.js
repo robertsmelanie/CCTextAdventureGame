@@ -14,13 +14,13 @@ ${enter}`;
 
 const gameOver1 = `You never see your home you die. ${gameOver}`;
 
-const q2 = `You arrive home safely. Then you get a phone call. You answer and it is a wrong number. You hang up and he immedently calls again, Should you...
+const q2 = `You arrive home safely. Then you get a phone call. You answer and it is a wrong number. You hang up and he immediately calls again, Should you...
 1. Keep talking to him he sounds cute
 OR
 2. Hang up and call the police you can't be too careful with a killer on the loose
 ${enter}`;
 
-const gameOver2 = `It was the hotel maid and you nearly killed her! You are forced to leave the hotel. ${gameOver}`;
+const gameOver2 = `You talk to the caller for several minutes. Then he asks your name and you say why. He says I want to know who I'm looking at. A chair crashes through the glass door and he runs in to stab you 14 times. YOU DIE!!! ${gameOver}`;
 
 const q3 = `The police arrive and they tell you they saw someone run off but lost them. Glad you called the police. They are leaving a couple of cops at your house tonight. You go to school and Billy your boyfriend stops you and says he needs to talk to you alone. Should you...
 1. Say OK and Billy says you should leave school to go to a private place
@@ -28,17 +28,17 @@ OR
 2. Tell Billy you will talk to him after class
 ${enter}`;
 
-const gameOver3 = `He takes you to a storage room you have never been to before. YOU GET STABBED AND DIE! ${gameOver}`;
+const gameOver3 = `He takes you to a storage room you have never been to before. YOU GET STABBED AND DIE! ${enter}`;
 
 const q4 = `You meet Billy after class and he complains that you haven't been the same since your mother died and he wants girlfriend back.  He thinks you should just get over it ...
 1. You tell him he is being unreasonable. Your mother died and it will take as long as it takes for you to deal with it. You then say that if he cannot deal with that he should find another girlfriend.
 OR
 2. You tell him you are sorry you shouldn't keep wallowing in your grief and should do what he says. 
-${enter}`;
+${gameOver}`;
 
 const gameOver4 = `He takes you to a storage room you have never been to before. YOU GET STABBED AND DIE!. ${gameOver}`;
 
-const q5 = `Biily goes into a rage and pulls out a bloody knife. You now know that he is the killer you panic and run coming from the trap and are tempted to look at it. Should you...
+const q5 = `Billy goes into a rage and pulls out a bloody knife. You now know that he is the killer you panic and run. Should you...
 1. Run to the room at the end of the hall to hide
 OR
 2. Run out the exit door of the building
