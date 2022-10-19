@@ -28,7 +28,7 @@ OR
 2. Tell Billy you will talk to him after class
 ${enter}`;
 
-const gameOver3 = `He takes you to a storage room you have never been to before. YOU GET STABBED AND DIE! ${enter0}`;
+const gameOver3 = `He takes you to a storage room you have never been to before. YOU GET STABBED AND DIE! ${enter}`;
 
 const q4 = `You meet Billy after class and he complains that you haven't been the same since your mother died and he wants girlfriend back.  He thinks you should just get over it ...
 1. You tell him he is being unreasonable. Your mother died and it will take as long as it takes for you to deal with it. You then say that if he cannot deal with that he should find another girlfriend.
@@ -58,19 +58,19 @@ let userInput = prompt(q1);
 // NESTED CONDITIONAL STATEMENTS
 // 1ST Conditional Statement
 // NOTE: Prompts returns the value entered as a string. That is why double equals is used instead of triple equals (AKA Strict Equality)
-if (userInput == 2){
+if (userInput == 2) {
     userInput = prompt(q2);
 
     // 2ND Conditional Statement
-    if (userInput == 2){
+    if (userInput == 2) {
         userInput = prompt(q3);
 
         // 3RD Conditional Statement
-        if (userInput == 2){
+        if (userInput == 2) {
             userInput = prompt(q4);
 
             // 4TH Conditional Statement
-            if (userInput == 1){
+            if (userInput == 1) {
                 userInput = prompt(q5);
 
                 // 5TH Conditional Statement
