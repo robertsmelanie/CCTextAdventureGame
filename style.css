@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-
-/* Bungee Spice */
-p, h1 {
+#grad {
+   background-image: linear-gradient(red, yellow);
+ }
+/* Creepster Font */
+p, h1, h2 {
    font-family: 'Creepster', cursive;
     
 }
